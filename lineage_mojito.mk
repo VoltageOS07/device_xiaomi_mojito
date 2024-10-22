@@ -19,6 +19,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
 TARGET_CORE_GMS := true
 
+#EvolutionX Stuff
+EVO_BUILD_TYPE := Unofficial
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
 PRODUCT_DEVICE := mojito
