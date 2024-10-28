@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some SuperiorOS stuffs
-$(call inherit-product, vendor/superior/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
