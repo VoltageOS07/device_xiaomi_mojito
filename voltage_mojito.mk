@@ -11,14 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some SuperiorOS stuffs
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some VoltageOS stuffs
+$(call inherit-product, vendor/voltage/config/common.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Gapps
-BUILD_WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_mojito

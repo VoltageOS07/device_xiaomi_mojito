@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_mojito.mk
+    $(LOCAL_DIR)/voltage_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_mojito-user \
-    superior_mojito-userdebug \
-    superior_mojito-eng
+    voltage_mojito-user \
+    voltage_mojito-userdebug \
+    voltage_mojito-eng
